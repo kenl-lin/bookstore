@@ -5,7 +5,7 @@
 #### 1.1 Project Overview
 
 
-This project is a simple book management system that provides basic functions such as book categories, book addition, and shopping cart management. It is built and developed using Java 17 and spring boot 3.3.x.
+This project is a simple book management system that provides basic functions such as book categories, book addition, and shopping cart management. It is built and developed using Java 17 and spring boot 3.3.x and maven.
 
 #### 1.2 Why Chose Spring Boot ?
 

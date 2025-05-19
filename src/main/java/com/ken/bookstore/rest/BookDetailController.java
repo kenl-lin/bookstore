@@ -38,7 +38,7 @@ public class BookDetailController {
     }
 
     @PutMapping("/admin/books")
-    @Operation(summary = "crate a book detail data")
+    @Operation(summary = "update a book detail data")
     public OperationResult<BookDetailResp> update(@RequestBody @Valid UpdateBookDetailReq request) {
         BookDetailResp bookDetailResp = bookDetailService.update(request);
         return OperationResult.success(bookDetailResp);
