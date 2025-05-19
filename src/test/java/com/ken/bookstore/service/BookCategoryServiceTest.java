@@ -28,7 +28,7 @@ public class BookCategoryServiceTest {
     @Test
     @Order(1)
     public void testCreateSuccess() {
-        BookCategoryResp bookCategoryResp = bookCategoryService.create(new CreateBookCategoryReq("Java1"));
+        BookCategoryResp bookCategoryResp = bookCategoryService.create(new CreateBookCategoryReq("Java1"+System.currentTimeMillis()));
         Assertions.assertNotNull(bookCategoryResp);
     }
 

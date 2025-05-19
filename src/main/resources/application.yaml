@@ -1,6 +1,6 @@
 logging:
   level:
-    root: DEBUG
+    root: INFO
     com.ken.bookstore: DEBUG
 server:
   port: 8080

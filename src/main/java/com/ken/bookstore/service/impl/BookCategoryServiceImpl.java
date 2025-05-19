@@ -39,7 +39,6 @@ public class BookCategoryServiceImpl implements BookCategoryService {
         if (exist) {
             throw new CustomerException(OperationResultCode.EXIST_CATEGORY_NAME);
         }
-        Timestamp now = new Timestamp(System.currentTimeMillis());
         BookCategory bookCategory = new BookCategory();
         bookCategory.setName(request.getCategoryName());
         bookCategory.setCreatedBy(SystemConstant.ADMIN_USER_ID);

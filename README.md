@@ -55,8 +55,11 @@ The project has tests for both the rest and service layers to ensure code qualit
 
 ### 2.1 Project download
 
-```
-You can download it via the current link. github link
+You can download it via the current link. github link [Github](https://github.com/kenl-lin/bookstore)
+
+git command
+```shell
+git clone https://github.com/kenl-lin/bookstore.git
 ```
 
 ### 2.2 How to start  project
@@ -79,9 +82,11 @@ mvn clean package -Dmaven.test.skip=true
 
 ### 2.5 How to run unit tests
 
-run the maven command:
+- run the maven command:
 
 ```shell
 mvn clean test
 ```
+
+- Execute through code: Go into the test/src class and execute the method
 

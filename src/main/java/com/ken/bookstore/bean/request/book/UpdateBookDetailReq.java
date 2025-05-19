@@ -20,13 +20,13 @@ public class UpdateBookDetailReq {
     @NotNull
     @Max(value = Long.MAX_VALUE)
     @Min(value = 1)
-    @Schema(description = "book id", requiredMode = Schema.RequiredMode.REQUIRED)
+    @Schema(description = "book id", requiredMode = Schema.RequiredMode.REQUIRED,defaultValue = "1")
     private Long id;
 
     @NotNull
     @Max(value = Long.MAX_VALUE)
     @Min(value = 1)
-    @Schema(description = "book category id", requiredMode = Schema.RequiredMode.REQUIRED)
+    @Schema(description = "book category id", requiredMode = Schema.RequiredMode.REQUIRED,defaultValue = "1")
     private Long categoryId;
 
     @NotBlank(message = "book name is required")

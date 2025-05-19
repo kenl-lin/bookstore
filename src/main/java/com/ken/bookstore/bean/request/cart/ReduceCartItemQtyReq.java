@@ -32,7 +32,6 @@ public class ReduceCartItemQtyReq {
 
     @NotNull
     @Max(value = Long.MAX_VALUE)
-    @Min(value = 1)
     @Schema(description = "book quantity", requiredMode = Schema.RequiredMode.REQUIRED, defaultValue = "1")
     private Long quantity;
 }
