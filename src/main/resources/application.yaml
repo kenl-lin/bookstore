@@ -1,0 +1,19 @@
+logging:
+  level:
+    root: DEBUG
+    com.ken.bookstore: DEBUG
+server:
+  port: 8080
+spring:
+  application:
+    name: bookstore
+  datasource:
+    url: jdbc:h2:file:./db/bookstore
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:ddl/init.sql
+      data-locations: classpath:dml/init.sql
